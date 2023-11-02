@@ -1,0 +1,30 @@
+{
+    "Bhop": {
+        "password": "$2y$10$i7ogDSFLOHgWI8KY8Zu7g.vmOfycfRfRs9EojGmelCLuHR6Umr3lK",
+        "theme": 0,
+        "premium": true
+    },
+    "ChezLinkZ": {
+        "password": "$2y$10$9gzSBwo2uzipEicAdDwDSe7\/sR6OnpOI0P1LsHHUmkn5dIqlXr\/xS",
+        "theme": 0,
+        "premium": true
+    },
+    "Aura": {
+        "password": "$2y$10$h2vGLBb6wzfg06tUTOm7jeTVqCVoFyGRoZywuJRpixDlx3juqPyzW",
+        "theme": 2,
+        "premium": false
+    },
+    "Console": {
+        "password": "$2y$10$tA\/6CbecLTCZBjkrj.WiAu0R\/9ABFr9OGuGvauxrXpMDqiF224j0e",
+        "theme": 0,
+        "premium": false
+    },
+    "SmellyManquaqe": {
+        "password": "$2y$10$Ir1zrij8ikrN1BNvCRUI.eGg2N7tWcMlY1JLGqOaxf10Qg9v1g6Sm",
+        "theme": 3,
+        "premium": false
+    },
+    "UltimateX": {
+        "password": "$2y$10$RrQ5\/PDwgA.QpScbj35hderYleWykg6TKbwdQni3NKdZgJexA8dZa"
+    }
+}

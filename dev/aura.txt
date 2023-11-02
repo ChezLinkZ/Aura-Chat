@@ -1,0 +1,22 @@
+Working Chat + Login
+Accounts
+Pretty Page
+
+online status and online bar
+Profiles, bio, profile image, banner, color
+settings
+Embeds
+Photo and file uploads
+pings
+
+https://www.figma.com/file/4mjgbPrxzAoB5ooq4l9hZp/Aura?type=design&mode=design&t=DICAHZTVOYuPSQlL-1
+
+https://www.figma.com/files/project/102588304/Aura?fuid=1178875434175509019
+
+https://chat.openai.com/share/f0a8c8e6-cc0e-44c4-acd4-e012e31dafe6
+
+https://app.zeplin.io/project/64d59cb5915b2956e9cc74ff/screen/64d59de977759a5679bc55dc
+
+
+
+https://devspaces.apps.sandbox-m2.ll9k.p1.openshiftapps.com/bhops/php-symfony/3100/

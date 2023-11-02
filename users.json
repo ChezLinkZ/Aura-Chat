@@ -1,0 +1,24 @@
+{
+    "Bhop": {
+        "password": "$2y$10$i7ogDSFLOHgWI8KY8Zu7g.vmOfycfRfRs9EojGmelCLuHR6Umr3lK",
+        "premium": true,
+        "theme": "3"
+    },
+    "ChezLinkZ": {
+        "password": "$2y$10$9gzSBwo2uzipEicAdDwDSe7\/sR6OnpOI0P1LsHHUmkn5dIqlXr\/xS",
+        "premium": true,
+        "theme": "4"
+    },
+    "Aura": {
+        "password": "$2y$10$h2vGLBb6wzfg06tUTOm7jeTVqCVoFyGRoZywuJRpixDlx3juqPyzW",
+        "premium": false
+    },
+    "Console": {
+        "password": "$2y$10$tA\/6CbecLTCZBjkrj.WiAu0R\/9ABFr9OGuGvauxrXpMDqiF224j0e",
+        "premium": false
+    },
+    "SmellyManquaqe": {
+        "password": "$2y$10$Ir1zrij8ikrN1BNvCRUI.eGg2N7tWcMlY1JLGqOaxf10Qg9v1g6Sm",
+        "premium": false
+    }
+}

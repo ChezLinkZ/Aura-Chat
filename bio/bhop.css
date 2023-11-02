@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleek Modern Website</title>
+    <style>
+        /* Your CSS code here */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        
+        .background {
+            background-image: url('../assets/images/city.jpg');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .rounded-acrylic-glass {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .main-text h1 {
+            font-size: 2.5em;
+            color: #fff;
+            margin-bottom: 10px;
+            animation: fadeInUp 1s forwards;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .main-text h1:hover {
+            color: #00bcd4;
+            box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+            transform: scale(1.05);
+        }
+        
+        body.loaded .main-text h1 {
+            animation: fadeInUp 1s forwards, bounceEffect 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        }
+        
+        @keyframes bounceEffect {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        .subtitle p {
+            font-size: 1em;
+            color: #ccc;
+            opacity: 0;
+            animation: typingEffect 3s steps(30), fadeInUp 1.5s forwards;
+        }
+        
+        @keyframes typingEffect {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="loaded">
+    <div class="background">
+        <div class="rounded-acrylic-glass">
+            <div class="main-text">
+                <h1>Bhop</h1>
+            </div>
+            <div class="subtitle">
+                <p>Hi, I like making things.👋</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="youtube-logo.png" alt="YouTube" class="square-image">
+                </a>
+                <a href="https://www.tiktok.com" target="_blank">
+                    <img src="tiktok-logo.png" alt="TikTok" class="square-image">
+                </a>
+                <a href="https://www.github.com" target="_blank">
+                    <img src="github-logo.png" alt="GitHub" class="square-image">
+                </a>
+                <a href="https://www.linktree.com" target="_blank">
+                    <img src="linktree-logo.png" alt="Linktree" class="square-image">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Your JavaScript code here
+        window.addEventListener("load", function () {
+            document.body.classList.add("loaded");
+        });
+    </script>
+</body>
+</html>
